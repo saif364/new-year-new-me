@@ -139,7 +139,12 @@
 
 /* #region contact style section */
 .contact {
-  background-image: url("images/watch.png"), url("images/gradient3.png");
+  background-image: linear-gradient(
+      to left,
+      rgba(245, 246, 252, 0.52),
+      rgba(54, 49, 126, 0.73)
+    ),
+    url("images/watch.png");
 
   border-radius: 20px;
   background-repeat: no-repeat;
